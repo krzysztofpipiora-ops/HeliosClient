@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "grokhack",
+  "version": "${version}",
+  "name": "GrokHack",
+  "description": "Pełny hacked client z mixinami dla Minecraft 1.21.4",
+  "authors": ["Grok"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/grokhack/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.grok.grokhack.GrokHack"]
+  },
+  "mixins": ["grokhack.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
