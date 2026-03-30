@@ -5,7 +5,7 @@ plugins {
 
 version = '1.0.0'
 group = 'pl.grok'
-archivesBaseName = 'GrokHack'
+archiveBaseName = 'GrokHack'   // <-- to jest poprawiona linijka
 
 repositories {
     mavenCentral()
