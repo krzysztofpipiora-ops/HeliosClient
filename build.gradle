@@ -9,7 +9,7 @@ archivesBaseName = 'GrokHack'
 
 repositories {
     mavenCentral()
-    maven { url = 'https://maven.fabricmc.net/' }   // ważne dla Fabric
+    maven { url = 'https://maven.fabricmc.net/' }
 }
 
 dependencies {
